@@ -76,7 +76,7 @@ func DeleteProduct(w http.ResponseWriter, r *http.Request) {
 	}
 	for i, product := range model.Products {
 		if product.ID == id {
-			model.Products = append(model.Products[:id], model.Products[i+1:]...)
+			model.Products = append(model.Products[:i], model.Products[i+1:]...)
 			w.WriteHeader(http.StatusNoContent)
 			return
 		}
