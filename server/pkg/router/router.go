@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/mjmichael73/productproducer/pkg/handler"
+	"github.com/mjmichael73/go-simple-http-server-client/server/pkg/handler"
 )
 
 func InitializeRouter() *mux.Router {

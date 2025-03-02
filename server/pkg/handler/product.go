@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/mjmichael73/productproducer/pkg/model"
+	"github.com/mjmichael73/go-simple-http-server-client/server/pkg/model"
 )
 
 func GetProducts(w http.ResponseWriter, r *http.Request) {
