@@ -15,15 +15,15 @@
 - go build -o main ./cmd/main.go
 
 # Server API Endpoints:
-- GET /products (Getting All Products)
-- GET /products/{id} (Getting a Single Product)
-- POST /products (Creating a Product)
-- PUT /products/{id} (Updating a Product)
-- DELETE /products/{id} (Deleting a Product)
+- GET http://localhost:3000/products (Getting All Products)
+- GET http://localhost:3000/products/{id} (Getting a Single Product)
+- POST http://localhost:3000/products (Creating a Product)
+- PUT http://localhost:3000/products/{id} (Updating a Product)
+- DELETE http://localhost:3000/products/{id} (Deleting a Product)
 
 # Client API Endpoints:
-- GET /products (Getting All Products)
-- GET /products/{id} (Getting a Single Product)
-- POST /products (Creating a Product)
-- PUT /products/{id} (Updating a Product)
-- DELETE /products/{id} (Deleting a Product)
+- GET http://localhost:4000/products (Getting All Products)
+- GET http://localhost:4000/products/{id} (Getting a Single Product)
+- POST http://localhost:4000/products (Creating a Product)
+- PUT http://localhost:4000/products/{id} (Updating a Product)
+- DELETE http://localhost:4000/products/{id} (Deleting a Product)
